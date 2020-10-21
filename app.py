@@ -77,6 +77,6 @@ usuarios = [{"id": e, "nome": "Aluno "+str(e), "senha":"impacta"} for e in range
 def getUsuarios():
     return jsonify(usuarios)
 
-app.run()
-# if __name__ == "__main__":
-#     app.run(host='0.0.0.0')
+# app.run()
+if __name__ == "__main__":
+    app.run(host='0.0.0.0')
